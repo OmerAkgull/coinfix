@@ -4,6 +4,7 @@ import Exchange from "./components/layout/exchange/Exchange";
 import GlobalStyle from "./globalStyles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Faq from "./components/layout/faq/Faq";
+import Joinus from "./components/layout/joinus/Joinus";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Exchange/>
       <Faq/>
+      <Joinus/>
     </>
   );
 }

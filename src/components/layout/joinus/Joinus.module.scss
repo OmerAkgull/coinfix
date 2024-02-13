@@ -1,0 +1,31 @@
+.gradientBg {
+    background-image: linear-gradient(to bottom, #141e30, #243b55);
+    color: white;
+    padding-top:150px;
+    position: relative;
+    @media only screen and (max-width: 772px) {
+        padding-top: 50px;
+    }
+}
+
+.joinText {
+    font-size: 82px;
+    @media only screen and (max-width: 772px) {
+        font-size:44px;
+    }
+}
+
+.gradientJoinText {
+    font-size: 82px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media only screen and (max-width: 772px) {
+        font-size:44px;
+    }
+}
+
+.ethGif {
+    max-width: 50%;
+}

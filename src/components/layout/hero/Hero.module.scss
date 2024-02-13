@@ -1,0 +1,16 @@
+.gradientBg {
+    background-image: linear-gradient(to top, #141e30, #243b55);
+}
+
+.heroText {
+    color: white;
+    font-size: 82px;
+}
+
+.gradientHeroText {
+    font-size: 82px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

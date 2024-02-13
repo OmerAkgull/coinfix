@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
 }
 body {
-  line-height: 1.5;
+  line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   font-family: "Rubik", sans-serif;
 }

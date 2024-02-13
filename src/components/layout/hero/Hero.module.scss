@@ -5,6 +5,9 @@
 .heroText {
     color: white;
     font-size: 82px;
+    @media only screen and (max-width: 772px) {
+        font-size:44px;
+    }
 }
 
 .gradientHeroText {
@@ -13,4 +16,23 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    @media only screen and (max-width: 772px) {
+        font-size:44px;
+    }
+}
+
+.coinLogo {
+    width: 150px;
+    height: auto;
+    @media only screen and (max-width: 772px) {
+        width:100px;
+    }
+}
+
+.ethLogo {
+    width: 100px;
+    height: auto;
+    @media only screen and (max-width: 772px) {
+        width:70px;
+    }
 }

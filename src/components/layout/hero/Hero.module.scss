@@ -1,5 +1,9 @@
 .gradientBg {
     background-image: linear-gradient(to top, #141e30, #243b55);
+    padding-top: 80px;
+    @media only screen and (max-width: 772px) {
+        padding-top: 30px;
+    }
 }
 
 .heroText {

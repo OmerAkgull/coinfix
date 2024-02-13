@@ -22,7 +22,7 @@ export default function NavBar() {
                 Home
               </Nav.Link>
               <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#link">
-                Market Update
+                Exchanges
               </Nav.Link>
               <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#link">
                 FAQ
@@ -36,7 +36,7 @@ export default function NavBar() {
                 active
                 className="fs-5 fw-medium"
                 target="blank"
-                href="https://discord.com/"
+                href="https://twitter.com/"
               >
                 <img
                   className={`d-none d-sm-block ${styles.brandLogos}`}
@@ -47,7 +47,7 @@ export default function NavBar() {
                 active
                 className="fs-5 fw-medium"
                 target="blank"
-                href="https://twitter.com/"
+                href="https://discord.com/"
               >
                 <img
                   className={`d-none d-sm-block ${styles.brandLogos}`}
@@ -61,3 +61,4 @@ export default function NavBar() {
     </>
   );
 }
+ 

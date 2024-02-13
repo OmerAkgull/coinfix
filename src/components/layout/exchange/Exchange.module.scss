@@ -1,0 +1,13 @@
+.gradientBg{
+    background-image: linear-gradient(to bottom, #141e30, #243b55);
+    color: white;
+}
+
+.exchangeText {
+    font-size: 62px;
+    padding-top: 100px;
+    @media only screen and (max-width: 772px) {
+        font-size:44px;
+        padding-top: 50px;
+    }
+}

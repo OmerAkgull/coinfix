@@ -1,0 +1,16 @@
+.faq {
+    background-image: linear-gradient(to top, #141e30, #243b55);
+    color: white;
+    padding-top:130px;
+    @media only screen and (max-width: 772px) {
+        padding-top: 50px;
+    }
+}
+
+.faqText {
+    font-size: 46px;
+    text-align: center;
+    @media only screen and (max-width: 772px) {
+        font-size:32px;
+    }
+}

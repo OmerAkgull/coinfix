@@ -1,8 +1,8 @@
 .gradientBg {
     background-image: linear-gradient(to bottom, #141e30, #243b55);
     color: white;
-    padding-top:150px;
-    position: relative;
+    padding-top:170px;
+    padding-bottom: 100px;
     @media only screen and (max-width: 772px) {
         padding-top: 50px;
     }
@@ -28,4 +28,39 @@
 
 .ethGif {
     max-width: 50%;
+}
+
+.button {
+    padding: 15px 75px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    color: white;
+    font-size: 32px;
+    border: none;
+}
+
+.footer {
+    background-image: linear-gradient(to top, #141e30, #243b55);
+    color: white;
+    padding-top: 150px;
+    position: relative;
+    @media only screen and (max-width: 772px) {
+        padding-top: 50px;
+    }
+}
+
+.binance {
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
+
+.tether {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.brandLogo {
+    width: 35px;
 }

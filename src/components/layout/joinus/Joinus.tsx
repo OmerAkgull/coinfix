@@ -10,7 +10,7 @@ export default function Joinus() {
             <Col md={3}>
               {" "}
               <img
-                className="d-flex justify-content-center align-items-center w-50 mt-md-5 d-none d-md-block"
+                className="d-flex justify-content-center align-items-center w-50 mt-md-5 pt-md-4 d-none d-md-block"
                 src="/src/assets/crypto-cryptocurrency.gif"
               ></img>
             </Col>

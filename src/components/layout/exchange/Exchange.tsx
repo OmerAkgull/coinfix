@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import styles from "./Exchange.module.scss";
 import { Table, TableColumnProps } from "antd";
 import { useState, useEffect } from "react";
+import "./customTableStyles.css";
 
 export default function Exchange() {
 
@@ -48,7 +49,7 @@ export default function Exchange() {
     {
       title: "Supply",
       dataIndex: "supply",
-      responsive: ['lg'],
+      responsive: ['xxl'],
     },
   ];
 
@@ -81,7 +82,7 @@ export default function Exchange() {
             showTotal: (total, range) =>
               `${range[0]}-${range[1]} of ${total} items`,
           }}
-          className="mt-5"
+          className={`mt-5 ${styles.customTable}`}
         />
       </Container>
     </>

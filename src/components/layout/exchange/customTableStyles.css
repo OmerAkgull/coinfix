@@ -1,0 +1,31 @@
+.ant-table {
+    background: transparent !important;
+    color: white !important;
+    border: none !important;
+    font-family: "Rubik", sans-serif !important;
+    font-size: 16px !important;
+  }
+  
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    border: none !important;
+  }
+
+  .ant-pagination,
+  .ant-pagination-item-ellipsis,
+  .ant-pagination-item-link {
+    font-family: "Rubik", sans-serif !important;
+    color: white !important;
+  }
+
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    background: none !important;
+}
+
+a {
+    font-family: "Rubik", sans-serif !important;
+}
+
+.ant-pagination .ant-pagination-item-active {
+    background-color: transparent !important;
+}

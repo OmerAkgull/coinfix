@@ -4,7 +4,7 @@ import styles from "./Hero.module.scss";
 export default function Hero() {
   return (
     <>
-      <header className={styles.gradientBg}>
+      <header id="home" className={styles.gradientBg}>
         <Container className="d-flex flex-column justify-content-center align-items-center pt-5">
           <div className={styles.heroText}>The World's</div>
           <div className={styles.gradientHeroText}>Fastest Growing</div>

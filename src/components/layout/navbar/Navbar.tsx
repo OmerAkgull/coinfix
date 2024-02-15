@@ -12,13 +12,13 @@ export default function NavBar() {
             className={`d-none px-2 d-sm-block ${styles.coinSvg}`}
             src="/src/assets/coin.svg"
           ></img>
-          <Navbar.Brand className="fw-bold fs-2" href="#">
+          <Navbar.Brand className="fw-bold fs-2" href="#home">
             CoinFix
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#">
+              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#home">
                 Home
               </Nav.Link>
               <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#exchanges">

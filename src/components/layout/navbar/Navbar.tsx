@@ -10,7 +10,7 @@ export default function NavBar() {
         <Container>
           <img
             className={`d-none px-2 d-sm-block ${styles.coinSvg}`}
-            src="public/coin.svg"
+            src="/coin.svg"
           ></img>
           <Navbar.Brand className="fw-bold fs-2" href="#home">
             CoinFix
@@ -40,7 +40,7 @@ export default function NavBar() {
               >
                 <img
                   className={`d-none d-sm-block ${styles.brandLogos}`}
-                  src="public/logo.svg"
+                  src="/logo.svg"
                 ></img>
               </Nav.Link>
               <Nav.Link
@@ -51,7 +51,7 @@ export default function NavBar() {
               >
                 <img
                   className={`d-none d-sm-block ${styles.brandLogos}`}
-                  src="public/discord-mark-white.svg"
+                  src="/discord-mark-white.svg"
                 ></img>
               </Nav.Link>
             </Nav>

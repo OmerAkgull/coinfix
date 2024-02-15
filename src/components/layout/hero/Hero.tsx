@@ -14,28 +14,28 @@ export default function Hero() {
               <Col xs={6} md={3} className="mb-3 d-flex justify-content-center">
                 <img
                   className={styles.coinLogo}
-                  src="public/bitcoin-btc-logo.svg"
+                  src="/bitcoin-btc-logo.svg"
                   alt="Bitcoin Logo"
                 />
               </Col>
               <Col xs={6} md={3} className="mb-3 d-flex justify-content-center">
                 <img
                   className={styles.ethLogo}
-                  src="public/ethereum-eth-logo-diamond.svg"
+                  src="/ethereum-eth-logo-diamond.svg"
                   alt="Ethereum Logo"
                 />
               </Col>
               <Col xs={6} md={3} className="mb-3 d-flex justify-content-center">
                 <img
                   className={styles.coinLogo}
-                  src="public/tether-usdt-logo.svg"
+                  src="/tether-usdt-logo.svg"
                   alt="Tether Logo"
                 />
               </Col>
               <Col xs={6} md={3} className="mb-3 d-flex justify-content-center">
                 <img
                   className={styles.coinLogo}
-                  src="public/bnb-bnb-logo.svg"
+                  src="/bnb-bnb-logo.svg"
                   alt="BNB Logo"
                 />
               </Col>

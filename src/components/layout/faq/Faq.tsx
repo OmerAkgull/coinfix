@@ -8,7 +8,7 @@ export default function Faq() {
         <Container id="faq" className="pb-5 pb-lg-0">
           <Row>
             <Col className="d-flex justify-content-center align-items-center" md={6}>
-              <img src="public/Group 69.svg"></img>
+              <img src="/Group 69.svg"></img>
             </Col>
             <Col className="d-flex flex-column justify-content-center" md={6}>
               <h1 className={styles.faqText}>Frequently Asked Questions</h1>

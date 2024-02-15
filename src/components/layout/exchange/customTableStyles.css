@@ -30,3 +30,19 @@ a {
 .ant-pagination .ant-pagination-item-active {
     background-color: transparent !important;
 }
+
+.ant-select-selector {
+    display: none !important;
+}
+
+.table-width {
+    width: 75%;
+    @media only screen and (max-width: 772px) {
+        width: 100%;
+    }
+}
+
+.imgWidth {
+    max-width: 64px;
+    max-height: 64px;
+}

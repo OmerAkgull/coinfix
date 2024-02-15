@@ -49,8 +49,8 @@ export default function Joinus() {
             <p>Privacy</p>
             <p>Terms of Use</p>
         </div>
-        <img className={`d-none d-md-block ${styles.binance}`} src="public/Binance_USD_perspective_matte 1.png"></img>
-        <img className={`d-none d-md-block ${styles.tether}`} src="public/Tether_perspective_matte 1.png"></img>
+        <img className={`d-none d-md-block ${styles.binance}`} src="public/Binance_USD_perspective_matte 1.PNG"></img>
+        <img className={`d-none d-md-block ${styles.tether}`} src="public/Tether_perspective_matte 1.PNG"></img>
       </footer>
     </>
   );

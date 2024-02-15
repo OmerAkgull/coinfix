@@ -12,7 +12,7 @@ export default function Joinus() {
               <img
               style={{marginRight:"100px"}}
                     className={`d-none d-md-block ${styles.responsiveImage}`}
-                src="/src/assets/crypto-cryptocurrency.gif"
+                src="/public/crypto-cryptocurrency.gif"
               ></img>
             </Col>
             <Col md={6}>
@@ -32,7 +32,7 @@ export default function Joinus() {
             >
               <img
                 className={`d-none d-md-block mb-4 ${styles.responsiveImage}`}
-                src="/src/assets/bitcoin.gif"
+                src="/public/bitcoin.gif"
               ></img>
             </Col>
           </Row>
@@ -40,17 +40,17 @@ export default function Joinus() {
       </section>
       <footer className={styles.footer}>
       <div className="d-flex mb-3 gap-3 fw-light text-center justify-content-center align-items-center">
-        <img className={styles.brandLogo} src="/src/assets/logo.svg"></img>
-        <img className={styles.brandLogo} src="/src/assets/discord-mark-white.svg"></img>
-        <img className={styles.brandLogo} src="/src/assets/Facebook_Logo_Secondary.png"></img>
-        <img className={styles.brandLogo} src="/src/assets/yt_icon_mono_dark.png"></img>
+        <img className={styles.brandLogo} src="/public/logo.svg"></img>
+        <img className={styles.brandLogo} src="/public/discord-mark-white.svg"></img>
+        <img className={styles.brandLogo} src="/public/Facebook_Logo_Secondary.png"></img>
+        <img className={styles.brandLogo} src="/public/yt_icon_mono_dark.png"></img>
         </div>
         <div className="d-flex gap-4 fw-light text-center justify-content-center align-items-center">
             <p>Privacy</p>
             <p>Terms of Use</p>
         </div>
-        <img className={`d-none d-md-block ${styles.binance}`} src="/src/assets/Binance_USD_perspective_matte 1.png"></img>
-        <img className={`d-none d-md-block ${styles.tether}`} src="/src/assets/Tether_perspective_matte 1.png"></img>
+        <img className={`d-none d-md-block ${styles.binance}`} src="/public/Binance_USD_perspective_matte 1.png"></img>
+        <img className={`d-none d-md-block ${styles.tether}`} src="/public/Tether_perspective_matte 1.png"></img>
       </footer>
     </>
   );

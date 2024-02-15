@@ -67,7 +67,7 @@ export default function Exchange() {
 
   return (
     <>
-      <Container
+      <Container id="exchanges"
         className={`d-flex pt-5 flex-column justify-content-center align-items-center ${styles.gradientBg}`}
         fluid
       >

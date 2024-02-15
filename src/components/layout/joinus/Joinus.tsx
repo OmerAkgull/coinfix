@@ -5,7 +5,7 @@ export default function Joinus() {
   return (
     <>
       <section className={styles.gradientBg}>
-        <Container fluid>
+        <Container id="join" fluid>
           <Row>
             <Col md={3}>
               {" "}

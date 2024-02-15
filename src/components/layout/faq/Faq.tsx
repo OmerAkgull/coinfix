@@ -5,7 +5,7 @@ export default function Faq() {
   return (
     <>
       <section className={styles.faq}>
-        <Container className="pb-5 pb-lg-0">
+        <Container id="faq" className="pb-5 pb-lg-0">
           <Row>
             <Col className="d-flex justify-content-center align-items-center" md={6}>
               <img src="/src/assets/Group 69.svg"></img>

@@ -21,13 +21,13 @@ export default function NavBar() {
               <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#">
                 Home
               </Nav.Link>
-              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#link">
+              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#exchanges">
                 Exchanges
               </Nav.Link>
-              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#link">
+              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#faq">
                 FAQ
               </Nav.Link>
-              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#link">
+              <Nav.Link active className="fs-5 px-sm-3 fw-medium" href="#join">
                 Join Now
               </Nav.Link>
             </Nav>

@@ -7,10 +7,11 @@ export default function Joinus() {
       <section className={styles.gradientBg}>
         <Container id="join" fluid>
           <Row>
-            <Col md={3}>
+            <Col className="d-flex justify-content-center align-items-center" md={3}>
               {" "}
               <img
-                    className={`img-fluid d-none d-md-block ${styles.responsiveImage}`}
+              style={{marginRight:"100px"}}
+                    className={`d-none d-md-block ${styles.responsiveImage}`}
                 src="/src/assets/crypto-cryptocurrency.gif"
               ></img>
             </Col>
@@ -30,7 +31,7 @@ export default function Joinus() {
               className="d-flex justify-content-center align-items-center"
             >
               <img
-                className="d-none d-md-block mb-md-5"
+                className={`d-none d-md-block mb-4 ${styles.responsiveImage}`}
                 src="/src/assets/bitcoin.gif"
               ></img>
             </Col>

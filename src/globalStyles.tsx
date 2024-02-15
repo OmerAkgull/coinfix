@@ -11,6 +11,7 @@ body {
   line-height: 1.1;
   -webkit-font-smoothing: antialiased;
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
 }
 img, picture, video, canvas, svg {
   display: block;

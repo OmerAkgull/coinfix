@@ -38,6 +38,7 @@ export default function Exchange() {
     {
       title: "Rank",
       dataIndex: "rank",
+      responsive: ["sm"]
     },
     {
       title: "",

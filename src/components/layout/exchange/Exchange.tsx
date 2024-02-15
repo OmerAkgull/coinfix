@@ -63,7 +63,6 @@ export default function Exchange() {
       dataIndex: "changePercent24Hr",
       render: (changePercent24Hr: string) => {
         // `%${Number(changePercent24Hr).toFixed(2)}`
-        console.log(changePercent24Hr)
         if(changePercent24Hr.startsWith("-")) {
           return <span style={{color: 'red'}}>{Number(changePercent24Hr).toFixed(2)}%</span>
         } else {
